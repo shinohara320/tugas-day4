@@ -52,7 +52,7 @@ function getData(event) {
             </div>
             <div class="card-content">
               <p>
-              ${descLength(datas[i].description,300)}
+              ${descLength(datas[i].description,250)}
               </p>
               <div style="display:flex; flex-direction:row;">
               ${datas[i].nodejs} ${datas[i].nextjs} ${datas[i].reactjs} ${datas[i].typerscript}
